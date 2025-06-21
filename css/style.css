@@ -1,0 +1,65 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.about {
+  padding: 2rem;
+  text-align: center;
+  background-color:black;
+}
+.about-black{
+  background-color:black;
+  color:white;
+}
+.tentang-text-white{
+color:white;
+}
+.tentang {
+  display: flex;
+  align-items: center; /* untuk sejajarkan vertikal tengah */
+  justify-content: center; /* tengah-tengah secara horizontal */
+  gap: 2rem; /* jarak antar img dan p */
+  flex-wrap: wrap; /* biar responsif, kalau layar kecil dia turun ke bawah */
+}
+
+.tentang img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.tentang p {
+  max-width: 500px;
+  text-align: center;
+}
+
+
+
+.navbar-opacity{
+  background-color:black;
+  
+}
+
+.bg-black{
+  background-color:black;
+}
+
+.bg-brown{
+  background-color:brown;
+}
+.footer{
+  background-color:#f29023;
+}
+.contact-section {
+  background-color: black; 
+  color: #fff;
+}
+.contact-section p {
+  color:white;
+}
+
+.map-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
