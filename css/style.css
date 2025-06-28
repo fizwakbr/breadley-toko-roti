@@ -1,17 +1,37 @@
-body {
-  font-family: 'Poppins', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+body p {
+  font-family: 'Lora', sans-serif;
 }
+body h1 {
+  font-family: 'Amaranth', serif;
+}
+
+
 
 
 .about {
   padding: 2rem;
   text-align: center;
-  background-color:black;
+  
 }
-.about-black{
-  background-color:black;
-  color:white;
+.about-green{
+  background-color: #06382a !important;
+  color:#c4ab80!important;
 }
+.highlight-about {
+  background-color: #c4ab80 !important; /* Warna highlight */
+  color:#06382a;
+  display: inline-block;     /* Supaya kotaknya ngikutin teks */
+  padding: 0.5rem 1.5rem;     /* Ruang dalam biar lega */
+  border-radius: 8px;         /* Biar sudutnya melengkung */
+  max-width: 100%;            /* Biar nggak melebar melebihi kontainer */
+  text-align: center;
+}
+
+
 .tentang-text-white{
 color:white;
 }
@@ -41,25 +61,163 @@ color:white;
   
 }
 
-.bg-black{
-  background-color:black;
+
+.bg-green{
+  background-color:#06382a;
 }
 
-.bg-brown{
-  background-color:brown;
+
+
+
+
+/*ini css buat product dan card */
+
+.highlight-product{
+  
+  background-color: #c4ab80 !important; /* Warna highlight */
+  color: #06382a !important;
+  display: inline-block;     /* Supaya kotaknya ngikutin teks */
+  padding: 0.5rem 1.5rem;     /* Ruang dalam biar lega */
+  border-radius: 8px;         /* Biar sudutnya melengkung */
+  max-width: 100%;            /* Biar nggak melebar melebihi kontainer */
+  text-align: center;
 }
-.footer{
-  background-color:#f29023;
+.shopping h1{
+  color:#06382a !important;
 }
+.bg-green-light{
+  background-color:#096d51 !important;
+  color:#06382a !important;
+}
+
+.card-body-cream{
+  background-color:#c4ab80;
+}
+/* Kartu utama */
+.product-card {
+  background-color: #00684a;
+  border-radius: 15%;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; /* penting agar bagian cream nyatu dan ikut rounded */
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Bagian atas kartu - warna cream penuh */
+.product-image {
+  background-color: #c4ab80;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Gambar produk */
+.product-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* Nama produk */
+.product-title {
+  margin-top: 0.75rem;
+  font-family: 'Amaranth', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* Ikon bawah kartu */
+.product-icons {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.4rem;
+  color: #ddcbac;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/*ini css ikon di card sama animasinya */
+.icon-btn {
+  background-color: #ddcbac;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #06382a;
+  font-size: 1.4rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  background-color: #c4ab80;
+  transform: scale(1.1);
+}
+
+.icon-btn:active {
+  transform: scale(0.9);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+/* ini css buat cobtact */
+.contact h1{
+  font-family:'Amaranth', serif  !important;
+}
+
+
+
 .contact-section {
-  background-color: black; 
-  color: #fff;
+  background-color:#06382a; 
+  color: #c4ab80;
 }
 .contact-section p {
-  color:white;
+  color:#c4ab80;
 }
 
 .map-wrapper {
   max-width: 900px;
   margin: 0 auto;
+}
+
+
+.btn-green{
+  background-color: #c4ab80!important;
+  color:#06382a!important;
+}
+
+
+
+.highlight-contact{
+  
+  background-color: #c4ab80 !important; /* Warna highlight */
+  color:#06382a !important;
+  display: inline-block;     /* Supaya kotaknya ngikutin teks */
+  padding: 0.5rem 1.5rem;     /* Ruang dalam biar lega */
+  border-radius: 8px;         /* Biar sudutnya melengkung */
+  max-width: 100%;            /* Biar nggak melebar melebihi kontainer */
+  text-align: center;
+}
+.border-cream{
+  border-color:#c4ab80;
+}
+.contact p {
+  color:#c4ab80;
 }

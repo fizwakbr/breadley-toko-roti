@@ -1,0 +1,115 @@
+
+header{
+  font-family: 'Amaranth', serif;
+}
+
+
+
+
+/* Bungkus utama */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* Atur jarak hanya 4px, bisa diubah ke 2px jika masih kejauhan */
+}
+
+/* Logo */
+.panestia-logo {
+  height: 32px; /* Biar lebih kecil dan sejajar pas */
+  width: auto;
+  display: block;
+}
+
+/* Teks Panestia */
+.panestia {
+  margin: 0; /* Hapus default margin h3 */
+  font-size: 1.25rem;
+  font-family: 'Amaranth', sans-serif;
+  color: #06382a;
+}
+
+/* Background navbar */
+.navbar-cream {
+  background-color: #c4ab80 !important;
+}
+
+/* Semua link navbar */
+.navbar-cream .nav-link {
+  color: #06382a !important;
+}
+
+/* Hover dan active */
+.navbar-cream .nav-link:hover,
+.navbar-cream .nav-link:focus,
+.navbar-cream .nav-link.active {
+  color: #096d51 !important;
+  text-decoration: none;
+}
+
+/* Warna brand */
+.navbar-cream .navbar-brand {
+  color: #c4ab80 !important;
+}
+
+/* Border bawah */
+.border-green-bottom {
+  border-bottom: 2px solid #06382a !important;
+}
+
+/* Fix untuk text-cream */
+.text-cream {
+  color: #c4ab80 !important;
+}
+
+/* Toggler icon di layar kecil */
+.navbar-green .navbar-toggler {
+  border-color: #c4ab80 !important;
+  color: #c4ab80 !important;
+}
+.navbar-green .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2306382a' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+
+.btn-green{
+  background-color:#06382a!important;
+}
+
+.btn-outline-green{
+  background-color:#06382a;
+  color:#c4ab80 !important;
+  border-color:#06382a !important;
+  
+}
+.btn-outline-green:active{
+  border: 4px solid #096d51;
+}
+
+.icon-btn {
+  background-color: #ddcbac;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #06382a;
+  font-size: 1.2rem;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.icon-btn:hover {
+  background-color: #c4ab80;
+  transform: scale(1.1);
+}
+
+.icon-btn:active {
+  transform: scale(0.9);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#cart-count {
+  font-size: 0.6rem;
+}
